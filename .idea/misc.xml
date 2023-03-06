@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2085" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/drawable/action_bar_bg.xml" value="0.163" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/drawable/ic_for_logo.xml" value="0.163" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.163" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/drawable/ic_star_grey.xml" value="0.2085" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/drawable/ic_star_yellow.xml" value="0.2085" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/drawable/icon_button_star.xml" value="0.2085" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/drawable/search_view_bg.xml" value="0.194" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/drawable/star_button_bg.xml" value="0.2085" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/drawable/stocks_item_bg.xml" value="0.2085" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/layout/fragment_favourite.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/layout/fragment_main.xml" value="0.25" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/layout/fragment_search.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/layout/fragment_stocks.xml" value="0.25" />
+        <entry key="..\:/Users/Nurdaulet/AndroidStudioProjects/StocksApp/app/src/main/res/layout/list_item_stocks.xml" value="0.536" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

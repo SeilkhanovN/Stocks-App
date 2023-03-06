@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="16dp"
+    android:background="@drawable/stocks_item_bg">
+
+    <ImageView
+        android:id="@+id/ivStockLogo"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvTickerName"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/montserrat"
+        android:lineHeight="24dp"
+        android:text="YNDX"
+        android:textFontWeight="700"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/ivStockLogo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCompanyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/montserrat"
+        android:lineHeight="16dp"
+        android:text="Yandex, LLC"
+        android:textFontWeight="600"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivStockLogo"
+        app:layout_constraintTop_toBottomOf="@+id/tvTickerName" />
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:id="@+id/materialButton"-->
+<!--        style="@style/Widget.Material3.Button.IconButton"-->
+<!--        android:layout_width="16dp"-->
+<!--        android:layout_height="16dp"-->
+<!--        android:layout_marginStart="6dp"-->
+<!--        android:layout_marginTop="17dp"-->
+<!--        android:background="@drawable/ic_star_grey"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/textView"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <CheckBox
+        android:id="@+id/iconBtnStar"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="17dp"
+        android:button="@drawable/star_button_bg"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTickerName"
+        app:layout_constraintStart_toEndOf="@+id/tvTickerName"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="17dp"
+        android:text="4 764,6 ₽"
+        android:fontFamily="@font/montserrat"
+        android:lineHeight="24dp"
+        android:textFontWeight="700"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvChanged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/montserrat"
+        android:lineHeight="16dp"
+        android:text="+55 ₽ (1,15%)"
+        android:textFontWeight="600"
+        android:textSize="12sp"
+        android:textColor="#24B35D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPrice" />
+</androidx.constraintlayout.widget.ConstraintLayout>

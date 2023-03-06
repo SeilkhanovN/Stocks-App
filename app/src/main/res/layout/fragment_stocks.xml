@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.main.StocksFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/search_view_bg"
+            android:iconifiedByDefault="false"
+            app:queryHint="Find company or ticker"
+            app:defaultQueryHint="Find company or ticker"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        </androidx.appcompat.widget.SearchView>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/textBtnStocks"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat"
+            android:textFontWeight="700"
+            android:lineHeight="32dp"
+            android:textSize="28sp"
+            android:textColor="#1A1A1A"
+            android:text="Stocks"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/searchView"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/textBtnFavourite"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Favourite"
+            android:fontFamily="@font/montserrat"
+            android:textFontWeight="700"
+            android:lineHeight="24dp"
+            android:textSize="18sp"
+            android:textColor="#BABABA"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textBtnStocks"
+            app:layout_constraintStart_toEndOf="@+id/textBtnStocks" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/stocks"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textBtnStocks"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+
+
+
+

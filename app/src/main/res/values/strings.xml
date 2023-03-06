@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Stocks App</string>
+    <string name="searchbar_hint">Find company or ticker</string>
+</resources>
